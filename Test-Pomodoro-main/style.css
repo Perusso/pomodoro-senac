@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Definir a fonte principal */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1c1e22;
+}
+
+.section {
+  background-image: url('image.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #F5F5F5;
+}
+
+section h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #777;
+}
+
+/* Definir o estilo geral dos botões */
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #29A98B;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+}
+
+.active {
+  background-color: #564ED9;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:hover {
+  background-color: #564ED9;
+}
+
+/* Estilo geral para todos os campos de entrada de texto */
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilizar as caixas de temporizador */
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.timer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Estilo para o temporizador atual */
+.current-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: #29A98B;
+  color: #fff;
+}
+
+.current-timer span {
+  color: #fff;
+}
+
+.current-timer label {
+  font-weight: bold;
+}
+
+.current-timer span {
+  font-size: 36px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+
+/* Estilizar as cores dos botões com base na ação */
+.work-action {
+  background-color: #6C63FF;
+}
+
+.short-action {
+  background-color: #F44336;
+}
+
+.long-action {
+  background-color: #4CAF50;
+}
+
+/* Estilizar o botão Iniciar quando estiver ativo */
+.active {
+  background-color: #564ED9;
+}
+
+/* Ocultar os botões Parar inicialmente */
+button[id$="-stop"] {
+  display: none;
+}
