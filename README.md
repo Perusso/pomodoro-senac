@@ -12,19 +12,5 @@ Clone este repositório em sua máquina local e abra o arquivo index.html em um 
 # **Personalização**
 Você pode personalizar as cores e o tempo do temporizador no arquivo style.css e script.js, respectivamente.
 
-**As cores usadas no projeto são:**
-
-Background do corpo: #1c1e22
-
-Background do cabeçalho: imagem de floresta desfocada
-
-Botões: #6C63FF
-
-Texto do contador: #FFCC33
-
-Texto dos títulos: #FFFFFF
-
-Texto secundário: #CCCCCC
-
 # **Licença**
 Este projeto é propriedade de SENAC e de cunho acadêmico. Todos os direitos são reservados e é proibida a reprodução ou uso não autorizado do conteúdo deste projeto sem a permissão da instituição.
