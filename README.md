@@ -4,7 +4,7 @@ Este é um projeto de temporizador pomodoro simples feito com HTML, CSS e JavaSc
 # **Como funciona**
 O temporizador pomodoro é uma técnica de gerenciamento de tempo que ajuda a aumentar a produtividade. Ele consiste em dividir o trabalho em blocos de tempo de 25 minutos, chamados de pomodoros, separados por intervalos curtos de 5 minutos.
 
-O temporizador deste projeto começa contando 25 minutos, além disso conta com tempororizadores de pausas curtas e longas. Ele também possui botões para iniciar, pausar e reiniciar o temporizador.
+O temporizador deste projeto começa contando 25 minutos, além disso conta com temporizadores de pausas curtas e longas. Ele também possui botões para iniciar, pausar e reiniciar o temporizador.
 
 # **Como utilizar**
 Clone este repositório em sua máquina local e abra o arquivo index.html em um navegador da web.
