@@ -14,3 +14,6 @@ Você pode personalizar as cores e o tempo do temporizador no arquivo style.css 
 
 # **Licença**
 Este projeto é propriedade de SENAC e de cunho acadêmico. Todos os direitos são reservados e é proibida a reprodução ou uso não autorizado do conteúdo deste projeto sem a permissão da instituição.
+
+
+![pomodoro](https://user-images.githubusercontent.com/76129749/235931954-c8083c36-a98f-4d21-9279-3f8814cbd63c.PNG)
